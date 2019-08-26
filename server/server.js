@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use("/", cartRoutes);
 
-app.listen(port, () => console.log(`server running on port: ${port}`));
+app.listen(port, () => console.log(`server running on port: ${port}.`));
 
 
 
